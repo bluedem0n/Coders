@@ -1,0 +1,33 @@
+.linea{
+	width: 70px;
+	border:2px solid black;
+	margin: 2px;
+}
+
+.cuadro{
+	width: 740px;
+	height: 500px;
+	margin: 30px;
+	position: relative;
+}
+
+.padre{
+	width:210px; 
+	height:210px;
+	margin: 15px;
+	position: relative;
+	display: inline-block;
+	-webkit-filter: brightness(50%);    
+	filter: brightness(50%);
+}
+
+.letras::before {
+	content: "Nombre y Apellido";
+	color: 	white;
+	font-family: "Times New Roman", Georgia, Serif;
+	position: relative;
+	left: 78px;
+	top: 214px;
+	font-size: 16px;
+}
+
